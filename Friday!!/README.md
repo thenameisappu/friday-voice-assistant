@@ -17,7 +17,7 @@ A Python-based voice assistant that responds to natural language commands for sy
 ```bash
 git clone [https://github.com/thenameisappu/friday-voice-assistant/tree/main/Friday!!]
 cd friday-voice-assistant
-pip install -r requirements.txt
+pip install -r requirements.docx
 ```
 
 ## 🚀 Usage
@@ -39,7 +39,7 @@ friday/
 ```
 
 ## 📝 Requirements
-See requirements.docX
+See requirements.docx
 
 ## 📜 License
 MIT
