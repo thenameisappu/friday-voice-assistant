@@ -41,5 +41,8 @@ friday/
 ## 📝 Requirements
 See requirements.docx
 
+## 📝 Commands
+See commands.docx
+
 ## 📜 License
 MIT
