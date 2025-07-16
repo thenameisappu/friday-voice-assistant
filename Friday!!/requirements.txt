@@ -1,1 +1,23 @@
+📦 Required Packages for Friday Assistant
 
+| Package Name              | 🧪 Installation Code          |💡 Purpose in Project                                          |
+|---------------------------|-------------------------------|----------------------------------------------------------------|
+| pyttsx3                   | pip install pyttsx3           | Offline text-to-speech (TTS) engine                            |
+| speechRecognition         | pip install SpeechRecognition | Converts voice input to text                                   |
+| pyaudio                   | pip install pyaudio           | Audio stream input from microphone                             |
+| pvporcupine               | pip install pvporcupine       | Wake word detection ("Friday")                                 |
+| keyboard                  | pip install keyboard          | Detects keyboard events (start/stop voice input)               |
+| pyautogui                 | pip install pyautogui         | GUI automation (mouse clicks, typing)                          |
+| pygetwindow               | pip install pygetwindow       | Window focus/position management                               |
+| psutil                    | pip install psutil            | System info (CPU, RAM, battery)                                |
+| requests                  | pip install requests          | API calls (e.g., weather)                                      |
+| appopener                 | pip install appopener         | Open desktop applications via voice                            |
+| pycaw                     | pip install pycaw             | Control system volume on Windows                               |
+| comtypes                  | pip install comtypes          | COM interface access (used by pycaw)                           |
+| pywin32                   | pip install pywin32           | Windows system/COM API support                                 |
+| pygame                    | pip install pygame            | UI animation (face images, subtitles)                          |
+| pillow                    | pip install pillow            | Image handling (used by animation)                             |
+| spotipy                   | pip install spotipy           | Spotify Web API control                                        |
+| opencv-python (optional)  | pip install opencv-python     | (Future) For camera/video processing                           |
+| numpy (optional)          | pip install numpy             | Required by OpenV, also for math/logic                         |
+| flask (optional)          | pip install flask             | (Future) Web interface or REST API                             |
