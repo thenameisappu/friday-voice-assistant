@@ -1,1 +1,0 @@
-# friday-voice-assistant
