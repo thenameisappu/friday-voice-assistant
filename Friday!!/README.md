@@ -1,6 +1,6 @@
 # Friday!! Voice Assistant
 
-![Assistant Demo](https://placehold.co/1200x400?text=Friday+Voice+Assistant+Demo)
+![Assistant Demo](https://placehold.co/1200x400?text=Friday+Voice+Assistant)
 
 A Python-based voice assistant that responds to natural language commands for system control, media playback, file operations, and more.
 
@@ -11,7 +11,7 @@ A Python-based voice assistant that responds to natural language commands for sy
 - **Productivity Tools**: Calculator, timer, notes
 - **File Management**: Search/copy/move files
 - **Smart Home**: WiFi/Bluetooth control
-- **And So'on**
+- **And more**
 
 ## 🛠 Installation
 ```bash
