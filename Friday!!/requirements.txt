@@ -1,30 +1,30 @@
 # 📦 Required Packages for Friday Assistant
 
-# Core functionality
-pyttsx3
-SpeechRecognition
-pyaudio
-pvporcupine
-keyboard
-pyautogui
-pygetwindow
-psutil
-requests
-appopener
+# --- Core functionality ---
+pyttsx3              # Offline text-to-speech (TTS) engine
+SpeechRecognition     # Converts microphone voice input into text
+pyaudio              # Captures live audio from microphone
+pvporcupine          # Wake word detection engine (e.g., "Friday")
+keyboard             # Detects and simulates keyboard events
+pyautogui            # UI automation: control mouse, keyboard, screen
+pygetwindow          # Manages and focuses application windows
+psutil               # Gets system info like CPU usage, battery status
+requests             # Sends HTTP requests (for weather, location, etc.)
+appopener            # Opens installed apps via voice commands
 
-# Windows-specific audio/system support
-pycaw
-comtypes
-pywin32
+# --- Windows-specific audio/system support ---
+pycaw                # Controls Windows system/app audio volume
+comtypes             # Required by pycaw to access Windows COM interfaces
+pywin32              # Accesses Windows system APIs (shutdown, lock, etc.)
 
-# UI and Animation
-pygame
-pillow
+# --- UI and Animation ---
+pygame               # Used for rendering UI animations and face display
+pillow               # Image processing (load, resize assistant face images)
 
-# Spotify support
-spotipy
+# --- Spotify support ---
+spotipy              # Controls music via the Spotify Web API
 
-# Optional/Future (commented out)
-# opencv-python  # For camera/video processing
-# numpy          # Required by OpenCV, math utilities
-# flask          # For potential web UI or REST API
+# --- Optional/Future (commented out) ---
+# opencv-python      # For camera/video processing in future updates
+# numpy              # Supports OpenCV, math calculations
+# flask              # For future web interface or REST API
